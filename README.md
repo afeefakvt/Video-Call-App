@@ -1,6 +1,6 @@
-# 🎥 Video Call App 
+# 🎥 Video Call Application 
 
-A simple video calling app using WebRTC for peer-to-peer streaming and Socket.IO for signaling.
+A simple video calling application using WebRTC for peer-to-peer streaming and Socket.IO for signaling.
 
 Frontend: React + Vite + TypeScript
 
