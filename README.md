@@ -1,4 +1,4 @@
-# 🎥 Video Call App (MERN + TypeScript + Socket.IO)
+# 🎥 Video Call App 
 
 A simple video calling app using WebRTC for peer-to-peer streaming and Socket.IO for signaling.
 
