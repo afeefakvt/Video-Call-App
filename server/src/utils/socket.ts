@@ -58,7 +58,7 @@ export const initializeSocket = (server:http.Server)=>{
         socket.on('disconnecting',()=>{
             //notify other peers in room the scoket was part of
             for(const roomId of socket.rooms){
-                if(roomId===socket.id){
+                if(roomId !==socket.id){
                     socket.to(roomId).emit('peer-left');
                 }
             }

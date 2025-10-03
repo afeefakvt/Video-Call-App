@@ -14,7 +14,7 @@ const VideoCall = () => {
     const [roomId,setRoomId] = useState("");
     const [status,setStatus] = useState<'idle' | 'created' | 'waiting' | 'connected' | 'failed'>('idle');
     const [muted,setMuted] = useState(false);
-    const [videoOff,setVideoOff] = useState(false);
+    const [videoOff,setVideoOff] = useState(false); 
 
     useEffect(()=>{
         const socket = io(SIGNALLING_SERVER);
