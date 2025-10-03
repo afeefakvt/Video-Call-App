@@ -64,4 +64,6 @@ export const initializeSocket = (server:http.Server)=>{
             }
         });
     });
+
+    return io
 };
